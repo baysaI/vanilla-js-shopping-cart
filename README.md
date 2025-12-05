@@ -1,48 +1,48 @@
-# Munch 🍪 - İthal Atıştırmalık Dükkanı
+# Munch 🍪 - Imported Snacks E-Commerce Frontend
 
-Munch, ithal atıştırmalık ürünlerinin sergilendiği, modern ve responsive (mobil uyumlu) bir e-ticaret arayüzü projesidir. Saf JavaScript (Vanilla JS) kullanılarak geliştirilmiştir ve veri kalıcılığı için tarayıcının `localStorage` özelliğini kullanır.
+Munch is a modern, responsive e-commerce interface designed for an imported snack store. It is built entirely with **Vanilla JavaScript** (no frameworks) and utilizes the browser's `localStorage` API for data persistence.
 
-## 🌟 Özellikler
+## 🌟 Features
 
-* **Dinamik Ürün Yönetimi:** Ürün verileri JavaScript dizisinden çekilir ve otomatik listelenir.
-* **Kalıcı Sepet Sistemi (LocalStorage):** Sayfayı yenileseniz veya tarayıcıyı kapatsanız bile sepetinizdeki ürünler kaybolmaz.
-* **Off-Canvas Sepet Tasarımı:** Sepet, ekranın sağından kayarak açılan şık bir panelde görüntülenir.
-* **Anlık Stok/Fiyat Güncelleme:** Sepet içindeki adet değişimleri anında toplam fiyata yansır.
-* **Toast Bildirimleri:** Ürün sepete eklendiğinde kullanıcıya görsel geri bildirim verir.
-* **Responsive Tasarım:** Hem masaüstü hem de mobil cihazlarda kusursuz görünüm.
+* **Dynamic Product Management:** Product data is rendered dynamically from a JavaScript array.
+* **Persistent Shopping Cart (LocalStorage):** Your cart items are saved automatically. Even if you refresh the page or close the browser, your snacks remain in the cart.
+* **Off-Canvas Cart UI:** A sleek, sliding sidebar mechanism for the shopping cart.
+* **Real-Time Calculations:** Stock counts and total prices update instantly as you interact with the cart.
+* **Toast Notifications:** Visual feedback (green pop-up) appears whenever an item is added to the cart.
+* **Fully Responsive:** Optimized for both desktop and mobile devices.
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Tech Stack
 
-* **HTML5** (Semantik yapı)
-* **CSS3** (Flexbox, Grid, CSS Variables ve Animasyonlar)
-* **JavaScript** (ES6+, DOM Manipülasyonu)
+* **HTML5** (Semantic structure)
+* **CSS3** (Flexbox, Grid, CSS Variables, and Animations)
+* **JavaScript** (ES6+, DOM Manipulation, LocalStorage API)
 
-## 🚀 Kurulum ve Kullanım
+## 🚀 Installation & Usage
 
-Bu projeyi çalıştırmak için herhangi bir paket yöneticisine (npm, yarn vb.) ihtiyacınız yoktur.
+This is a static project, so you don't need any package managers like npm or yarn.
 
-1.  Repoyu bilgisayarınıza klonlayın veya indirin.
-2.  Proje klasöründeki `index.html` dosyasını tarayıcınızda açın.
-3.  İşte bu kadar! Munch dükkanı hizmetinizde.
+1.  **Clone** or download this repository.
+2.  Open the `index.html` file in your favorite web browser.
+3.  That's it! The Munch store is ready to serve.
 
-## 📂 Dosya Yapısı
+## 📂 Project Structure
 
     MUNCH/
-    ├── index.html      # Ana Sayfa (Vitrin)
-    ├── urunler.html    # Ürün Listeleme Sayfası
-    ├── style.css       # Tüm stil ve tasarım kodları
-    ├── script.js       # Sepet mantığı ve dinamik işlemler
-    ├── img/            # Ürün görselleri
-    └── README.md       # Proje dokümantasyonu
+    ├── index.html      # Homepage (Hero & Showcase)
+    ├── urunler.html    # Product Listing Page
+    ├── style.css       # Main Stylesheet
+    ├── script.js       # Core Logic & Cart Management
+    ├── img/            # Product Images & Assets
+    └── README.md       # Project Documentation
 
-## 📷 Ekran Görüntüleri
 
-![Munch Ürünler](img/screenshot.png)
-![Munch Sepet](img/screenshot2.png)
+
+![Munch Products](img/screenshot.png)
+![Munch Shopping](img/screenshot2.png)
 
 ## 📄 Lisans
 
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
-**Geliştirici:** Mehmet Baysal
+**Developed by:** [Mehmet Baysal](https://github.com/baysaI)
