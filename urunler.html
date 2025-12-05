@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munch - Ürünler</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">MUNCH.</a>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="urunler.html" class="active">Ürünler</a>
+            <div class="cart-icon" onclick="toggleCart()">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <span id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="margin-bottom: 20px;">Tüm Ürünler</h2>
+        <div class="product-grid" id="product-container">
+        </div>
+    </main>
+
+    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h2>Sepetim (<span id="cart-total-count">0</span>)</h2>
+            <span class="close-cart" onclick="toggleCart()">&times;</span>
+        </div>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-footer">
+            <div class="total-row">
+                <span>Toplam Tutar:</span>
+                <span id="cart-total-price">0 TL</span>
+            </div>
+            <button class="btn-checkout">Siparişi Tamamla</button>
+        </div>
+    </div>
+
+    <div id="notification">Ürün sepete eklendi! 🍪</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
